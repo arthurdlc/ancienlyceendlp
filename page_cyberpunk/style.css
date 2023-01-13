@@ -1,0 +1,100 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {  
+        text-decoration: rgb(157, 156, 157);
+        background-color: rgb(202, 200, 202);
+        color :rgb(0,0,0);
+}
+
+.dropbtn {
+        background-color: rgb(157, 156, 157);
+        color: black;
+        padding: 14px 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial;
+}
+      
+.dropdown {
+        position: relative;
+        display: inline-block;
+}
+      
+.dropdown-content {
+        display: none;
+        position: relative;
+        background-color: #000000;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+        z-index: 1;
+}
+      
+.dropdown-content a {
+        color: rgb(255,255,255);
+        padding: 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        font-family: Arial;
+}
+      
+.dropdown-content a:hover {background-color: black}
+      
+.dropdown:hover .dropdown-content {
+        display: block;
+}
+      
+.dropdown:hover .dropbtn {
+        background-color: rgb(182, 178, 178);
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 1;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        position: sticky;
+}
+
+li {
+        float: left;
+        border-right: 1px solid rgb(10,0,0)
+}
+
+li a.active {
+        color: rgb(0,0,0);
+        background-color: rgb(157, 156, 157);
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial;
+}   
+      
+li a {
+        display: block;
+        color: rgb(255,255,255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        background-color: black;
+        font-family: Arial;
+}
+
+li a:hover {
+        background-color: rgb(182, 178, 178);
+}
+
+h3{
+        margin: 100;
+        text-align: justify;
+        font-size: 20px;
+        font-family: Arial;
+}
