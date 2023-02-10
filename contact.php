@@ -33,7 +33,7 @@
             <li><a href="Histoire.html">Histoire</a></li>
             <li><a href="index.html" style="color: rgb(45, 170, 225);">Accueil</a></li>
         </ul><hr>
-        <h1 style="text-decoration : {rgb(0, 14, 50) ;}" >Contactez-nous :</h1> <br><br><br>
+        <h1 style="text-decoration : {rgb(0, 14, 50) ;}" >Contactez-nous :</h1><br><hr width="60%"> <br><br><br>
         <p>
             Adresse Postale : ................. <br><br>
             Email : amis-ndlp@ik.me <br> <br>
